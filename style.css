@@ -7,11 +7,11 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background: #1f2b37;
+    background: #181818;
     position: relative;
 }
 .logo{
-    width: 100px;
+    width: 40px;
     position: absolute;
     top: 1%;
     left: 1%;
@@ -32,16 +32,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background: rgba(235, 0, 255, 0.3);
+    background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(20px);
-    color: #fff;
+    color: #000600;
 }
 .container::before{
     content: '';
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: #419aff;
+    background: #6660ff;
     position: absolute;
     top: -60px;
     left: -60px;
@@ -52,7 +52,7 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: #419aff;
+    background: #6660ff;
     position: absolute;
     bottom: -60px;
     right: -60px;
@@ -65,7 +65,7 @@
 }
 .clock span::after{
     font-size: 16px;
-    color: #fff;
+    color: #222;
     position: absolute;
     left: 50%;
     bottom: -10%;
